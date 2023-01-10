@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react"
 
-type Props = {};
+type Props = {}
 
 const CoverImage = (props: Props) => {
   return (
@@ -12,7 +12,7 @@ const CoverImage = (props: Props) => {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g clip-path="url(#clip0_1110_10250)">
+      <g clipPath="url(#clip0_1110_10250)">
         <rect width="1080" height="1080" fill="#F28C38" />
         <rect
           x="-6"
@@ -817,65 +817,65 @@ const CoverImage = (props: Props) => {
         <path
           d="M156 167.688C166.873 167.688 175.688 158.873 175.688 148C175.688 137.127 166.873 128.312 156 128.312C145.127 128.312 136.312 137.127 136.312 148C136.312 158.873 145.127 167.688 156 167.688Z"
           stroke="#FF7300"
-          stroke-width="4.73047"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="4.73047"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M156 117.812V115.188"
           stroke="#FF7300"
-          stroke-width="4.73047"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="4.73047"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M134.639 126.639L132.802 124.802"
           stroke="#FF7300"
-          stroke-width="4.73047"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="4.73047"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M125.812 148H123.188"
           stroke="#FF7300"
-          stroke-width="4.73047"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="4.73047"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M134.639 169.361L132.802 171.199"
           stroke="#FF7300"
-          stroke-width="4.73047"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="4.73047"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M156 178.188V180.812"
           stroke="#FF7300"
-          stroke-width="4.73047"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="4.73047"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M177.361 169.361L179.199 171.199"
           stroke="#FF7300"
-          stroke-width="4.73047"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="4.73047"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M186.188 148H188.812"
           stroke="#FF7300"
-          stroke-width="4.73047"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="4.73047"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M177.361 126.639L179.199 124.802"
           stroke="#FF7300"
-          stroke-width="4.73047"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="4.73047"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <defs>
@@ -884,7 +884,7 @@ const CoverImage = (props: Props) => {
         </clipPath>
       </defs>
     </svg>
-  );
-};
+  )
+}
 
-export default CoverImage;
+export default CoverImage
