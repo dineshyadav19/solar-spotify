@@ -1,7 +1,7 @@
 import html2canvas from "html2canvas"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import CoverImage from "./CoverImage.tsx"
-import logo from "./logo.svg"
+import logo from "./test.png"
 const imageStyles = {
   width: "100vw",
   height: "100vh",
@@ -69,7 +69,10 @@ function CsvReader() {
 }
 
 function SolarSpotify(props) {
-  convertHtmlToImage(props)
+  useEffect(() => {
+    convertHtmlToImage(props)
+  }, [props])
+
   return (
     <div className="main--container" id={`solar-${props.site_id}`}>
       <CoverImage style={imageStyles} />
@@ -79,13 +82,13 @@ function SolarSpotify(props) {
             All the care and commitment to your solar plant added up to{" "}
           </h1>
 
-          <h2 className="main--units">{props.gen_units}</h2>
+          <h2 className="main--units">{Math.round(props.gen_units)}</h2>
 
           <p className="main--content">
-            In 2022, your solar plant generated {props.gen_units} units of
-            electricity that is approximately ~ ₹
-            {(props.gen_units * 7).toFixed(1)}* and {props.offset_unit} Kg of
-            Co2 Offset
+            In 2022, your solar plant generated {Math.round(props.gen_units)}{" "}
+            units of electricity that is approximately ~ ₹
+            {(props.gen_units * 7).toFixed(1)}* and{" "}
+            {Math.round(props.offset_unit)} Kg of Co2 Offset
           </p>
         </div>
         <footer className="footer">

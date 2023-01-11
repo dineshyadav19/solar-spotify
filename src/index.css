@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background: black;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .main--container {
@@ -14,38 +14,40 @@ body {
 
 .container {
   position: absolute;
-  width: 75%;
-  height: 33%;
+  width: 59%;
+  height: 61%;
   background: white;
   display: flex;
   flex-direction: column;
   justify-content: end;
   padding: 0.5rem;
-  padding-top: 0;
+  padding-top: 0rem;
 }
 
 .main {
   margin: 1rem;
+  margin-bottom: 2.75rem;
 }
 
 .main--heading {
   font-weight: 600;
-  font-size: 0.65rem;
+  font-size: 1.75rem;
   text-align: center;
-  margin: 0;
+  margin: 0 1rem;
 }
 
 .main--units {
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 12rem;
   color: #ff7300;
-  margin: 0.5rem 0;
+  margin: 0rem;
   text-align: center;
+  line-height: 158%;
 }
 
 .main--content {
   font-weight: 400;
-  font-size: 0.65rem;
+  font-size: 1.5rem;
   text-align: center;
   margin: 0;
 }
@@ -53,17 +55,17 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 0 0.5rem;
+  padding: 0 1.5rem 1rem 1.65rem;
 }
 
 .footer--img {
-  width: 70px;
-  height: 17px;
+  width: 167px;
+  height: 42px;
 }
 
 .footer--title {
   font-weight: 600;
-  font-size: 0.65rem;
+  font-size: 1.35rem;
   display: flex;
   align-items: center;
 }
